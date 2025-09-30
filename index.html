@@ -8,9 +8,9 @@
 <body>
     <h1>Bienvenue sur mon Portfolio</h1>
     <p>Bonjour, je m'appelle Julien REAUD. Ceci est la première version de mon site web où je vais présenter mes projets et mon parcours. <h3>C dur mais sa avance</h3></p>
-    <p>
+<p>
   Clique sur ce mot : 
-  <span onclick="document.getElementById('maListe').style.display = 'block';" style="color:blue;cursor:pointer;text-decoration:underline;">
+  <span onclick="var l=document.getElementById('maListe'); l.style.display = (l.style.display==='block') ? 'none' : 'block';" style="color:blue;cursor:pointer;text-decoration:underline;">
     mot
   </span>
   <ul id="maListe" style="display:none;">
